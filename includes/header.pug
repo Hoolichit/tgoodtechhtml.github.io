@@ -1,0 +1,41 @@
+mixin list(name)
+  li.list
+    a(href="")= name
+header
+  .header-asset
+    .container
+      
+        ul.contact_bar
+          li
+            a(href="")
+              span
+                img(src="./images/facebook-i.png", alt="") 
+                | TGoodTech
+          li 
+            a(href="")
+              span
+                img(src="./images/mail-i.png", alt="") 
+                | dip.tgoodtech@gmail.com
+        .login_wrap
+          a(href="") Log in
+  .container
+    .row      
+      .header-menu  
+        .col-sm-3.col-xs-6
+          .logo
+            a(href="")
+              img(src="./images/logo.png", alt="")
+        .col-xs-6.visible-xs
+            .hamburger.hamburger--slider
+              .hamburger-box
+                .hamburger-inner
+        .col-sm-9.col-xs-12
+          .header_wrap
+            ul.mainmenu
+              +list('Home')
+              +list('About')
+              +list('Useful Tips')
+              +list('Useful Links')
+              +list('News & Events')
+              +list('FAQ')
+              +list('Contact')

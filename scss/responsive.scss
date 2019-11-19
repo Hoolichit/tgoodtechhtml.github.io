@@ -1,0 +1,301 @@
+@charset "utf-8";
+@import "core/core";
+@import url('https://fonts.googleapis.com/css?family=Prompt:300,300i,400,500,700');
+
+
+@media (max-width: 1200px){
+    body .wrapper .header-menu .mainmenu .list {
+        padding-left: 30px;
+    }
+    body .wrapper .header-menu .mainmenu .list a {
+        font-size: 15px;
+    }
+    body .wrapper .footer_wrap .form_footer{
+        padding-left: 0;
+    }
+    body .wrapper .footer_wrap .form_footer form{
+        width: auto;
+    }
+    body .wrapper .footer_wrap .contact_footer .contact-list{
+        padding-left: 0;
+    }
+    body .wrapper .footer_wrap .menufooter .listfooter a{
+        font-size: 18px;
+    }
+    body .wrapper .about_wrap .banner_abt{
+        height: 400px;
+    }
+    body .wrapper .tab_wrap .tab-content .thum_img{
+        height: 210px;;
+    }
+  }
+  @media (max-width: 1024px){}
+  @media (max-width: 991px){
+    body .wrapper .header-menu .mainmenu .list {
+        padding-left: 12px;
+    }
+    body .wrapper .header-menu .mainmenu{
+        padding-top: 20px;
+    }
+    body .wrapper .wrapper_body .thumnew .thum_img{
+        height: 200px;
+    }
+    body .wrapper .header-menu .mainmenu .list a {
+        font-size: 14px;
+    }
+    body .wrapper .answer .panel-group .panel-default .panel-heading .panel-title a{
+        font-size: 16px;
+    }
+    body .wrapper .answer .panel-group .panel-default .panel-body p{
+        font-size: 14px;
+    }
+    body .wrapper .footer_wrap .menufooter .listfooter {
+        padding: 10px 0;
+    }
+    .menufooter{
+        padding-top: 5px!important;
+    }
+    body .wrapper .footer_wrap .contact_footer .social {
+        margin-top: 20px;
+    }
+    .border_footer{
+        border-top: 1px solid $white;
+        margin: 15px 0;
+    }
+    body .wrapper .wrapper_body .description .descrition_img{
+        height: 350px;
+    }
+    body .wrapper .wrapper_body .description .detail p {
+        height: 271px;
+        font-size: 15px;
+    }
+    body .wrapper .about_wrap .detail p{
+        font-size: 15px;
+        margin-bottom: 45px;
+    }
+    body .wrapper .about_wrap .banner_abt{
+        height: 300px;
+    }
+    body .wrapper .contact_wrap .contact li{
+        font-size: 18px;
+    }
+    body .wrapper .contact_wrap .contact .contact-icon2 {
+        background-position: left 14px;
+    }
+    body .wrapper .contact_wrap .contact .contact-icon3 {
+        background-position: left 20px;
+    }
+    body .wrapper .contact_wrap .contact .contact-icon4 {
+        background-position: left 15px;
+    }
+    body .wrapper .contact_wrap .map_block {
+        height: 300px;
+    }
+    .search_new .nopadding{
+        padding: 0 15px;
+    }
+    body .wrapper .modal_company1 .modal-header{
+        padding: 15px;
+    }
+    body .wrapper .modal_company1 .modal-body {
+        padding: 15px;
+    }
+    .modal-footer .btn-default.btn_cancle{
+        min-width: inherit;
+    }
+    body .wrapper .company_wrap .edit_company li:first-child{
+        font-size: 16px;
+    }
+    body .wrapper .company_wrap .edit_company li a{
+        font-size: 16px;
+    }
+    body .wrapper .company_wrap .setting_btn{
+        font-size: 16px;
+    }
+    .table_edit.table-responsive .nopadding{
+        padding: 0 15px;
+    }
+    body .wrapper .modal_company1 .modal-footer .btn-default.btn_cancle,
+    body .wrapper .modal_company1 .modal-footer .btn-default,
+    body .wrapper .modal_company1 .modal-footer .btn-primary{
+        min-width: inherit;
+    }
+  }
+  @media (max-width: 768px){}
+  @media (min-width: 767px){}
+  @media (max-width: 767px){
+    body .wrapper .wrapper_body .description .detail p {
+        font-size: 15px;
+        height: 313px;
+    }
+    .description .nopaddingright{
+        padding-right: 15px;
+    }
+    body .wrapper .answer .faq{
+        font-size: 20px;
+    }
+    body .wrapper .wrapper_body .thumnew .caption p{
+        font-size: 15px;
+    }
+    .header-menu .hamburger{
+        float: right;
+        margin-top: 5px;
+    }
+    .header-menu .hamburger-inner, 
+    .header-menu .hamburger-inner::before, 
+    .header-menu .hamburger-inner::after{
+        color: $darkblue;
+    }
+    body .wrapper .header-menu .mainmenu .list{
+        display: block;
+        text-align: left;
+        padding: 5px 0;
+    }
+    body .wrapper .header-menu .mainmenu .list a {
+        font-size: 18px;
+    }
+    body .wrapper .header-menu{
+        margin-top: 0;
+    }
+    .header_wrap {
+        display: none;
+    }
+    body .wrapper  .answer .panel-group .panel-default .panel-heading{
+        padding: 15px 0;
+    }
+    body .wrapper .wrapper_body .description .descrition_img{
+        height: auto;
+        position: static;
+    }
+    body .wrapper .wrapper_body .description .detail h3{
+        margin: 15px 0;
+    }
+    body .wrapper .wrapper_body .description .detail p {
+        height: auto;
+    }
+    body .wrapper  .headline {
+        margin-top: 45px;
+    }
+    body .wrapper .footer_wrap{
+        margin-top: 0;
+    }
+    body .wrapper .footer_wrap .contact_footer .contact-list li {
+        font-size: 16px;
+    }
+    h4.panel-title span img{
+        max-width: 8px;
+    }
+    body .wrapper .header-asset .contact_bar li a{
+        font-size: 12px;
+    }
+    body .wrapper .header-asset .contact_bar li a img{
+        max-width: 20px;
+    }
+    body .wrapper .header-asset .contact_bar li{
+        margin-right: 15px;
+    }
+    body .wrapper .wrapper_body .description .descrition_img::after {
+        display: none;
+    }
+    body .wrapper .wrapper_body .description .descrition_img img{
+        position: static;
+    }
+    body .wrapper .wrapper_body .thumnew .thum_img::after {
+        display: none;
+    }
+    body .wrapper .wrapper_body .thumnew .thum_img {
+        height: auto;
+        position: static;
+    }
+    body .wrapper .wrapper_body .thumnew .thum_img img{
+        max-width: 100%;
+        position: static;
+    }
+    body .wrapper .footer_wrap .form_footer .submit_footer .btn-default {
+        width: 150px;
+    }
+    body .wrapper .about_wrap .banner_abt{
+        height: auto;
+        max-width: 100%;
+    }
+    body .wrapper .about_wrap .detail h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 15px 0 20px 0;
+    }
+    body .wrapper .about_wrap .detail p {
+        line-height: 25px;
+    }
+    body .wrapper .about_wrap .topic_wrap .thumbnail h3{
+        font-size: 20px;
+        margin: 10px 0 20px 0;
+    }
+    body .wrapper .contact_wrap .map_block {
+        margin-bottom: 40px;
+    }
+    body .wrapper .tab_wrap .nav-tabs li a{
+        font-size: 18px;
+    }
+    body .wrapper .tab_wrap .tab-content .thum_img{
+        height: auto;
+    }
+    body .wrapper .tab_wrap .tab-content .btn_event .btn-default{
+        margin-bottom: 30px;
+    }
+    body .wrapper .modal_company1 .modal-footer .btn-default.btn_cancle,
+    body .wrapper .modal_company1 .modal-footer .btn-default,
+    body .wrapper .modal_company1 .modal-footer .btn-primary{
+        font-size: 14px;
+        padding: 10px;
+    }
+    body .wrapper .table_edit th{
+        font-size: 16px;
+    }
+  }
+  @media (max-width: 480px){
+    //   .wrap_thum .col-xs-6,
+    //   .description .col-xs-6{
+    //       width: 100%;
+    //   }
+      body .wrapper .wrapper_body .description .detail h3{
+          margin-top: 20px;
+          font-size: 20px;
+          height: 43px;
+          line-height: 1;
+      }
+      body .wrapper .header-asset .contact_bar li a{
+          font-size: 0;
+      }
+      body .wrapper .header-asset .contact_bar li {
+            margin: 0;
+      }
+      body .wrapper .header-asset .contact_bar li a img {
+        vertical-align: middle;
+      }
+      .search_new .col-xs-6{
+          width: 100%;
+      }
+      body .wrapper .search_new .form-horizontal .btn-default{
+          margin-top: 15px;
+      }
+      body .wrapper .tab_wrap .nav-tabs li{
+          width: 100%;
+      }
+      body .wrapper .tab_wrap .tab-content .btn_new .btn-default{
+          min-width: inherit;
+          padding: 15px;
+      }
+      body .wrapper .tab_wrap .tab-content .btn_event .btn-default{
+        min-width: inherit;
+        padding: 15px;
+      }
+      body .wrapper .modal_company1 .modal-footer .btn-default.btn_cancle,
+    body .wrapper .modal_company1 .modal-footer .btn-default,
+    body .wrapper .modal_company1 .modal-footer .btn-primary{
+        font-size: 12px;
+        padding: 8px;
+    }
+  }
+  @media (max-width: 365px){
+
+  }

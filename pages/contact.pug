@@ -1,0 +1,41 @@
+extends ../includes/layout.pug
+
+block content
+  .contact_wrap
+    .container
+      .row
+        .col-md-12
+          .headline
+              h2 Contact us
+        .col-md-6
+          .col-md-6.nopaddingleft
+            .logo_insite
+              img(src="./images/logo_insite.png", alt="")
+            .headline_contact
+              h3 กระทรวงอุตสหกรรม
+          .col-md-12.nopadding
+            ul.contact
+              li.contact-icon1 75/6 พระรามที่ 6 แขวงทุ่งพญาไท เขตราชเทวี กรุงเทพฯ 10400
+              li.contact-icon2 โทร: 02-202-3000
+              li.contact-icon3 dip.tgoodtech@gmail.com
+              li.contact-icon4 เปิดทำการ 08:00 - 15:00 น.    
+        .col-md-6
+          .block_form_contact
+            .headline_contact
+              h3 ข้อความ
+            .form_contact
+               form
+                .form-group
+                  input(type="email",placeholder="Email",class="form-control",id="exampleInputEmail1")
+                .form-group
+                  input(type="email",placeholder="ชื่อ - นามสกุล",class="form-control",id="exampleInputEmail1")
+                .form-group
+                  textarea(rows="8",class="form-control",placeholder="ข้อความ")
+                .submit_footer
+                  input(class="btn btn-default",type="submit",value="ส่งข้อความ")
+        .col-md-12
+          .map_block
+            iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.6242436761888!2d100.52587985815438!3d13.763883102774173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2994c91fdda21%3A0x1824cf55c6b4fed3!2s75%2F6+Thanon+Rama+VI%2C+Khwaeng+Thung+Phaya+Thai%2C+Khet+Ratchathewi%2C+Krung+Thep+Maha+Nakhon+10400!5e0!3m2!1sen!2sth!4v1524929612054", frameborder="0",allowfullscreen)
+
+                
+               

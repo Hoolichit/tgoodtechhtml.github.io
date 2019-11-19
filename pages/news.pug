@@ -1,0 +1,262 @@
+extends ../includes/layout.pug
+
+block content
+  article
+    .wrapper_body
+      .container
+        .banner_wrap
+          .banner
+             img(src="./images/banner.png", alt="")
+          .banner
+             img(src="./images/banner.png", alt="")
+        .row
+          .search_new
+            .col-md-6
+              form.form-horizontal
+                .form-group
+                  .col-md-12
+                    input(type="email",placeholder="Search",class="form-control",id="exampleInputEmail1")
+            .col-md-6
+              form.form-horizontal
+                .form-group
+                  .col-md-8.col-xs-6.nopadding
+                    select.form-control
+                      option All
+                      option 2
+                      option 3
+                      option 4
+                      option 5
+                  .col-md-4.col-xs-6
+                    button.btn.btn-default(type="submit",)
+                      | Search
+          .col-md-12
+            .headline
+              h2 News
+          .col-md-12
+            .tab_wrap
+              ul(class="nav nav-tabs",role="tablist")
+                li(role="presentation",class="active")
+                  a(href="#tab1",aria-controls="tab1",role="tab",data-toggle="tab")
+                    | Digital Value Chain
+                li(role="presentation")
+                  a(href="#tab2",aria-controls="tab2",role="tab",data-toggle="tab")
+                    | ระบบจับคู่ธุรกิจออนไลน์
+              .tab-content
+                  .tab-pane.active.row(role="tabpanel",id="tab1")
+                    .col-md-4.col-sm-6.col-xs-12
+                      .thumbnail
+                        .thum_img
+                          a(href="")
+                            img(src="./images/topic3.png", alt="")
+                          a(href="")
+                            .backdrop
+                        .caption
+                          a(href="")
+                            h3 News 1
+                          .date 11/03/2561
+                          a(href="")
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                    .col-md-4.col-sm-6.col-xs-12
+                      .thumbnail
+                        .thum_img
+                          a(href="")
+                            img(src="./images/topic2.png", alt="")
+                          a(href="")
+                            .backdrop
+                        .caption
+                          a(href="")
+                            h3 News 2
+                          .date 11/03/2561
+                          a(href="")
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                    .col-md-4.col-sm-6.col-xs-12
+                      .thumbnail
+                        .thum_img
+                          a(href="")
+                            img(src="./images/news1.png", alt="")
+                          a(href="")
+                            .backdrop
+                        .caption
+                          a(href="")
+                            h3 News 3
+                          .date 11/03/2561
+                          a(href="")
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                    .col-md-4.col-sm-6.col-xs-12
+                      .thumbnail
+                        .thum_img
+                          a(href="")
+                            img(src="./images/news2.png", alt="")
+                          a(href="")
+                            .backdrop
+                        .caption
+                          a(href="")
+                            h3 News 4
+                          .date 11/03/2561
+                          a(href="")
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                    .col-md-4.col-sm-6.col-xs-12
+                      .thumbnail
+                        .thum_img
+                          a(href="")
+                            img(src="./images/news3.png", alt="")
+                          a(href="")
+                            .backdrop
+                        .caption
+                          a(href="")
+                            h3 News 5
+                          .date 11/03/2561
+                          a(href="")
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                    .col-md-4.col-sm-6.col-xs-12
+                      .thumbnail
+                        .thum_img
+                          a(href="")
+                            img(src="./images/news4.png", alt="")
+                          a(href="")
+                            .backdrop
+                        .caption
+                          a(href="")
+                            h3 News 6
+                          .date 11/03/2561
+                          a(href="")
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                    .col-xs-12
+                      .btn_new
+                        a(class="btn btn-default",href="#",role="button")
+                          | ดูข่าวสารทั้งหมด
+
+                  .tab-pane.row(role="tabpanel",id="tab2")
+                    .col-md-4.col-sm-6.col-xs-12
+                      .thumbnail
+                        .thum_img
+                          a(href="")
+                            img(src="./images/topic3.png", alt="")
+                          a(href="")
+                            .backdrop
+                        .caption
+                          a(href="")
+                            h3 Topic 1
+                          .date 11/03/2561
+                          a(href="")
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                    .col-xs-12.
+                      .btn_new
+                        a(class="btn btn-default",href="#",role="button")
+                          | ดูข่าวสารทั้งหมด
+          .col-md-12
+            .headline_sub
+              h3 Event
+          .col-md-12
+            .tab_wrap
+              ul(class="nav nav-tabs",role="tablist")
+                li(role="presentation",class="active")
+                  a(href="#tab3",aria-controls="tab3",role="tab",data-toggle="tab")
+                    | Ministry of Industry
+                li(role="presentation")
+                  a(href="#tab4",aria-controls="tab4",role="tab",data-toggle="tab")
+                    | T-GOODTECH
+              .tab-content
+                .tab-pane.active.row(role="tabpanel",id="tab3")
+                  .col-md-4.col-sm-6.col-xs-12
+                    .thumbnail
+                      .thum_img
+                        a(href="")
+                          img(src="./images/news5.png", alt="")
+                        a(href="")
+                          .backdrop
+                      .caption
+                        a(href="")
+                          h3 News 1
+                        .date 11/03/2561
+                        a(href="")
+                          p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                  .col-md-4.col-sm-6.col-xs-12
+                    .thumbnail
+                      .thum_img
+                        a(href="")
+                          img(src="./images/news6.png", alt="")
+                        a(href="")
+                          .backdrop
+                      .caption
+                        a(href="")
+                          h3 News 2
+                        .date 11/03/2561
+                        a(href="")
+                          p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                  .col-md-4.col-sm-6.col-xs-12
+                    .thumbnail
+                      .thum_img
+                        a(href="")
+                          img(src="./images/news7.png", alt="")
+                        a(href="")
+                          .backdrop
+                      .caption
+                        a(href="")
+                          h3 News 3
+                        .date 11/03/2561
+                        a(href="")
+                          p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                  .col-md-4.col-sm-6.col-xs-12
+                    .thumbnail
+                      .thum_img
+                        a(href="")
+                          img(src="./images/news8.png", alt="")
+                        a(href="")
+                          .backdrop
+                      .caption
+                        a(href="")
+                          h3 News 4
+                        .date 11/03/2561
+                        a(href="")
+                          p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                  .col-md-4.col-sm-6.col-xs-12
+                    .thumbnail
+                      .thum_img
+                        a(href="")
+                          img(src="./images/news9.png", alt="")
+                        a(href="")
+                          .backdrop
+                      .caption
+                        a(href="")
+                          h3 News 5
+                        .date 11/03/2561
+                        a(href="")
+                          p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                  .col-md-4.col-sm-6.col-xs-12
+                    .thumbnail
+                      .thum_img
+                        a(href="")
+                          img(src="./images/news10.png", alt="")
+                        a(href="")
+                          .backdrop
+                      .caption
+                        a(href="")
+                          h3 News 6
+                        .date 11/03/2561
+                        a(href="")
+                          p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                  .col-xs-12
+                      .btn_event
+                        a(class="btn btn-default",href="#",role="button")
+                          | ดูกิจกรรมทั้งหมด
+                .tab-pane.row(role="tabpanel",id="tab4")
+                  .col-md-4.col-sm-6.col-xs-12
+                    .thumbnail
+                      .thum_img
+                        a(href="")
+                          img(src="./images/news10.png", alt="")
+                        a(href="")
+                          .backdrop
+                      .caption
+                        a(href="")
+                          h3 News 6
+                        .date 11/03/2561
+                        a(href="")
+                          p Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting
+                  .col-xs-12
+                      .btn_event
+                        a(class="btn btn-default",href="#",role="button")
+                          | ดูกิจกรรมทั้งหมด
+                            
+              

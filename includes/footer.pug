@@ -1,0 +1,221 @@
+mixin listfooter(name)
+  li.listfooter
+    a(href="")= name
+footer
+  .footer_wrap
+    .container
+      .row.equal
+        .col-md-2.col-sm-6.col-xs-12
+          ul.menufooter
+            +listfooter('Home')
+            +listfooter('About')
+            +listfooter('Useful Tips')
+            +listfooter('Useful Links')
+            +listfooter('News & Events')
+            +listfooter('FAQ')
+            +listfooter('Contact')
+        .col-md-4.col-sm-6.col-xs-12
+          .contact_footer
+            h3 กระทรวงอุตสหกรรม
+            ul.contact-list
+              li.icon_footer1 75/6 พระรามที่ 6 แขวงทุ่งพญาไท เขตราชเทวี กรุงเทพฯ 10400
+              li.icon_footer2 โทร: 02-202-3000
+              li.icon_footer3 dip.tgoodtech@gmail.com
+            ul.social
+              li
+                a(href="")
+                  img(src="./images/social-f.png", alt="")
+              li
+                a(href="")
+                  img(src="./images/social-twi.png", alt="")
+              li
+                a(href="")
+                  img(src="./images/social-g.png", alt="")
+              li
+                a(href="")
+                  img(src="./images/social-y.png", alt="")
+        .col-xs-12.visible-sm.visible-xs
+          hr.border_footer
+        .col-md-6.col-sm-12.col-xs-12
+          .form_footer
+            h3 กรอกข้อความ
+            form
+              .form-group
+                input(type="email",placeholder="Email",class="form-control",id="exampleInputEmail1")
+              .form-group
+                input(type="email",placeholder="ชื่อ - นามสกุล",class="form-control",id="exampleInputEmail1")
+              .form-group
+                textarea(rows="3",class="form-control",placeholder="ข้อความ")
+              .submit_footer
+                input(class="btn btn-default",type="submit",value="ส่งข้อความ")
+  .copyright 
+    .container
+      .copy
+        | copyright 2016, www.tgoodtech.com
+
+//- .modal_company1
+//-   .modal.fade.edit_company(id="myModal",tabindex="-1",role="dialog",aria-labelledby="myModalLabel")
+//-     .modal-dialog.modal-lg(role="document")
+//-       .modal-content
+//-         .modal-header
+//-           button(type="button",class="close",data-dismiss="modal",aria-label="Close")
+//-             span(aria-hidden="true") 
+//-               img(src="./images/close.png", alt="")
+//-           h4.modal-title(id="myModalLabel")
+//-             | Edit Corporate info1
+//-             p.italic การอัปเดตจะไม่ได้รับการเผยแพร่ จนกว่าจะมีการคลิกปุ่ม "บันทึก"
+//-             p กรุณาป้อนข้อมูลการติดต่อของผู้รับผิดชอบระบบ (ข้อมูลนี้จะไม่เปิดเผยต่อสาธารณชนทางอินเทอร์เน็ต)
+//-             p.red กรุณากรอกข้อความลงในหัวข้อที่มีเครื่องหมาย *
+//-         .modal-body
+//-           .table_edit.table-responsive
+//-             table.table.table-bordered
+//-               tr
+//-                 th.blue(width='200px') 
+//-                   span Coporate name
+//-                   span.red *
+//-                 th
+//-                   form
+//-                     .form-group
+//-                       <input type="text" class="form-control" id="name">
+//-               tr
+//-                 th.blue(width='200px') 
+//-                   span Web address
+//-                   span.red *
+//-                 th
+//-                   form
+//-                     .form-group
+//-                       <input type="text" class="form-control" id="address">
+//-               tr
+//-                 th.blue(width='200px') 
+//-                   span Number of employees
+//-                   span.red *
+//-                 th 
+//-                   form.form-inline
+//-                     .form-group
+//-                       <input type="text" class="form-control wid" id="employees1">
+//-                     .form-group
+//-                       label(for="exampleInputEmail2") ( Number of full-time employees:
+//-                       <input type="text" class="form-control wid" id="employees2"> )
+
+//-                     .form-group
+//-                       label(for="employees3") Current Value: 0 (Full-time: 0)                    
+//-               tr
+//-                 th.blue(width='200px') 
+//-                   span Head office: Country
+//-                   span.red *
+//-                 th Thailand
+//-               tr
+//-                 th.blue(width='200px') 
+//-                   span Head office: Address
+//-                   span.red *
+//-                 th
+//-                   form.form-horizontal
+//-                     .form-group
+//-                       label(class="col-md-3 col-xs-12 nopaddingright control-label",for="exampleInputEmail2") Postal Code:
+//-                       .col-md-6.col-xs-12.nopadding
+//-                         <input type="text" class="form-control" id="officeAddress1">
+//-                     .form-group
+//-                       label(class="col-md-3 col-xs-12 nopaddingright control-label",for="exampleInputEmail2") Address:
+//-                       .col-md-8.col-xs-12.nopadding
+//-                         <input type="text" class="form-control" id="officeAddress1">
+//-                     .form-group
+//-                       label(class="col-md-12 col-xs-12 nopaddingright control-label",for="exampleInputEmail2") Current Value: 75/1 RAMA 6 Phayathai Ratchatevee10400, 10400
+//-               tr
+//-                 th.blue(width='200px') 
+//-                   span Industry
+//-                   span.red *
+//-                 th
+//-                   select.form-control
+//-                     option Public administration and defence; compulsory
+//-                     option 1
+//-                     option 2
+//-                     option 3
+//-                     option 4
+//-             table
+//-         .modal-footer
+//-           button(type="button",class="btn btn-default btn_cancle",data-dismiss="modal") Cancle
+//-           button(type="button",class="btn btn-default") Save as draft
+//-           button(type="button",class="btn btn-primary") Save public view
+
+.modal_company1
+  .modal.fade.edit_company1(id="myModal",tabindex="-1",role="dialog",aria-labelledby="myModalLabel")
+    .modal-dialog.modal-lg(role="document")
+      .modal-content
+        .modal-header
+          button(type="button",class="close",data-dismiss="modal",aria-label="Close")
+            span(aria-hidden="true") 
+              img(src="./images/close.png", alt="")
+          h4.modal-title(id="myModalLabel")
+            | Edit Corporate info1
+            p.italic การอัปเดตจะไม่ได้รับการเผยแพร่ จนกว่าจะมีการคลิกปุ่ม "บันทึก" 
+            p.red กรุณากรอกข้อความลงในหัวข้อที่มีเครื่องหมาย *
+        .modal-body
+          .table_edit.table-responsive
+            table.table.table-bordered
+              tr
+                th.blue(width='200px') 
+                  span Coporate name
+                  span.red *
+                th
+                  form
+                    .form-group
+                      <input type="text" class="form-control" id="name">
+              tr
+                th.blue(width='200px') 
+                  span Web address
+                  span.red *
+                th
+                  form
+                    .form-group
+                      <input type="text" class="form-control" id="address">
+              tr
+                th.blue(width='200px') 
+                  span Number of employees
+                  span.red *
+                th 
+                  form.form-inline
+                    .form-group
+                      <input type="text" class="form-control wid" id="employees1">
+                    .form-group
+                      label(for="exampleInputEmail2") ( Number of full-time employees:
+                      <input type="text" class="form-control wid" id="employees2"> )
+
+                    .form-group
+                      label(for="employees3") Current Value: 0 (Full-time: 0)                    
+              tr
+                th.blue(width='200px') 
+                  span Head office: Country
+                  span.red *
+                th Thailand
+              tr
+                th.blue(width='200px') 
+                  span Head office: Address
+                  span.red *
+                th
+                  form.form-horizontal
+                    .form-group
+                      label(class="col-md-3 col-xs-12 nopaddingright control-label",for="exampleInputEmail2") Postal Code:
+                      .col-md-6.col-xs-12.nopadding
+                        <input type="text" class="form-control" id="officeAddress1">
+                    .form-group
+                      label(class="col-md-3 col-xs-12 nopaddingright control-label",for="exampleInputEmail2") Address:
+                      .col-md-8.col-xs-12.nopadding
+                        <input type="text" class="form-control" id="officeAddress1">
+                    .form-group
+                      label(class="col-md-12 col-xs-12 nopaddingright control-label",for="exampleInputEmail2") Current Value: 75/1 RAMA 6 Phayathai Ratchatevee10400, 10400
+              tr
+                th.blue(width='200px') 
+                  span Industry
+                  span.red *
+                th
+                  select.form-control
+                    option Public administration and defence; compulsory
+                    option 1
+                    option 2
+                    option 3
+                    option 4
+            table
+        .modal-footer
+          button(type="button",class="btn btn-default btn_cancle",data-dismiss="modal") Cancle
+          button(type="button",class="btn btn-default") Save as draft
+          button(type="button",class="btn btn-primary") Save public view
